@@ -9,8 +9,8 @@ const Projects = () => {
    AOS.init();
    return (
       <>
-         <div id="project" className="min-h-[100vh] pt-20 ">
-            <div className="text-white mx-auto">
+         <div id="project" className="min-h-screen pt-20 bg-gradient-to-t from-slate-800  to-blue-800">
+            <div className="text-white max-w-6xl mx-auto">
                <div className="max-w-xl mx-auto">
                   <div className="text-center ">
                      <div className="relative flex flex-col items-center">
@@ -35,7 +35,7 @@ const Projects = () => {
                   <div className="p-4 mx-auto max-w-7xl">
                      <div className="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4">
                         {/* 1st */}
-                        <div data-aos="fade-up" className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row group shadow-[4.0px_8.0px_8.0px_rgba(200,0,0,0.38)]" >
+                        <div data-aos="fade-up" className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row group shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]" >
                            <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
                               <img src={img1} alt="" className="absolute duration-[3s] group-hover:-translate-y-[calc(100%-320px)] " />
                               <Link to="https://inventohub.netlify.app" className="absolute px-4 py-2 text-xs text-white bg-blue-500 rounded top-4 left-4 hover:bg-yellow-100 hover:text-black font-semibold">
@@ -47,7 +47,7 @@ const Projects = () => {
                               <span className="block mb-2 text-xs font-semibold text-blue-700 capitalize dark:text-blue-300">
                                  Time Period: 7 days
                               </span>
-                              <h2 className="mb-3 text-2xl font-bold leading-9 text-white">
+                              <h2 className="mb-3 text-2xl font-bold leading-9 text-black dark:text-white">
                                  InventoHub - Inventory Management
                               </h2>
                               <p className="text-sm leading-7 text-gray-400">
@@ -57,7 +57,7 @@ const Projects = () => {
                            </div>
                         </div>
                         {/* 2nd */}
-                        <div data-aos="fade-up" className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row-reverse   group shadow-[-4.0px_8.0px_8.0px_rgba(200,0,0,0.38)]" >
+                        <div data-aos="fade-up" className="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row-reverse   group shadow-[-5px_5px_15px_1px_#1a202c]" >
                            <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
                               <img src={img2} alt="" className="absolute duration-[3s] group-hover:-translate-y-[calc(100%-320px)]" />
                               <Link to="https://cosmico-brand-shop.netlify.app" className="absolute px-4 py-2 text-xs text-white bg-blue-500 rounded top-4 right-4 hover:bg-yellow-100 hover:text-black font-semibold">Preview</Link>
@@ -66,7 +66,7 @@ const Projects = () => {
                               <span className="block mb-2 text-xs font-semibold text-blue-700 capitalize dark:text-blue-300">
                                  Time Period: 5 days
                               </span>
-                              <h2 className="mb-3 text-2xl font-bold leading-9 text-white">
+                              <h2 className="mb-3 text-2xl font-bold leading-9 text-black dark:text-white">
                                  Cosmico - Online Shop
                               </h2>
                               <p className="text-sm leading-7 text-gray-400">
@@ -76,7 +76,7 @@ const Projects = () => {
                            </div>
                         </div>
                         {/* 3rd */}
-                        <div data-aos="fade-up" className="flex flex-col flex-wrap mb-0 overflow-hidden shadow-[4.0px_8.0px_8.0px_rgba(200,0,0,0.38)] rounded lg:flex-row group">
+                        <div data-aos="fade-up" className="flex flex-col flex-wrap mb-0 overflow-hidden shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded lg:flex-row group">
                            <div className="relative w-full overflow-hidden lg:w-2/4 h-80">
                               <img src={img3} alt="" className="absolute duration-[3s] group-hover:-translate-y-[calc(100%-318px)]" />
                               <Link to="https://the-library-0.netlify.app" className="absolute px-4 py-2 text-xs text-white bg-blue-500 rounded top-4 left-4 hover:bg-yellow-100 hover:text-black font-semibold">
@@ -88,7 +88,7 @@ const Projects = () => {
                               <span className="block mb-2 text-xs font-semibold text-blue-700 capitalize dark:text-blue-300">
                                  Time Period: 4 days
                               </span>
-                              <h2 className="mb-3 text-2xl font-bold leading-9 text-white">
+                              <h2 className="mb-3 text-2xl font-bold leading-9 text-black dark:text-white">
                                  The Library - Library Management
                               </h2>
                               <p className="text-sm leading-7 text-gray-400">

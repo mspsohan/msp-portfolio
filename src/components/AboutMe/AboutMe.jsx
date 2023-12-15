@@ -4,8 +4,8 @@ const AboutMe = () => {
    AOS.init();
    return (
       <>
-         <div id="about" className="min-h-[100vh] lg:h-screen text-white pt-20 content-center">
-            <div className="mx-auto px-4 lg:px-0 grid grid-cols-1 md:grid-cols-12 content-center h-full gap-2">
+         <div id="about" className="min-h-screen lg:h-screen text-white pt-20 bg-gradient-to-t from-blue-800 to-slate-800 content-center">
+            <div className="max-w-6xl mx-auto px-5 grid grid-cols-1 md:grid-cols-12 content-center h-full gap-2">
                <div data-aos="fade-up" className="col-span-8 order-1 md:order-2">
                   <h2 className="text-4xl font-semibold mb-5">About Me</h2>
                   <div className="col-span-8 p-2">

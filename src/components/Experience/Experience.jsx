@@ -4,10 +4,10 @@ const Experience = () => {
    AOS.init();
    return (
       <>
-         <div className="min-h-[100vh]">
-            <div id="experience">
-               <div className="items-center pt-10 font-poppins ">
-                  <div className="justify-center px-4 py-4 mx-auto lg:py-8 md:px-6">
+         <div id="experience" className="min-h-screen  bg-gradient-to-t from-blue-800 to-slate-800">
+            <div>
+               <div className="items-center py-16 font-poppins ">
+                  <div className="justify-center max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
                      <div className="max-w-xl mx-auto">
                         <div className="text-center ">
                            <div className="relative flex flex-col items-center">
@@ -33,10 +33,10 @@ const Experience = () => {
                      <div className="w-full mx-auto lg:max-w-3xl mt-6">
                         <div data-aos="fade-up" className="relative flex justify-between">
                            <div className="hidden  w-24 py-3 md:block ">
-                              <h2 className="text-base font-medium  text-gray-100 dark:text-gray-400">Oct 2023 - Present</h2>
+                              <h2 className="text-base font-medium  text-gray-700 dark:text-gray-400">Oct 2023 - Present</h2>
                            </div>
                            <div className="absolute inline-block  py-3 left-16 -top-12 md:hidden ">
-                              <h2 className="text-base font-medium  text-gray-100 dark:text-gray-400">Oct 2023 - Present</h2>
+                              <h2 className="text-base font-medium  text-gray-700 dark:text-gray-400">Oct 2023 - Present</h2>
                            </div>
                            <div className="flex flex-col items-center w-10 mr-4 md:w-24">
                               <div>
@@ -85,10 +85,10 @@ const Experience = () => {
                         {/* 2nd  */}
                         <div data-aos="fade-up" className="relative flex justify-between">
                            <div className="hidden w-24 py-3 md:block ">
-                              <h2 className="text-base  font-medium text-gray-100 dark:text-gray-400">Jun 2023 - Sep 2023</h2>
+                              <h2 className="text-base  font-medium text-gray-700 dark:text-gray-400">Aug 2023 - Sep 2023</h2>
                            </div>
                            <div className="absolute inline-block  py-3 left-16 -top-12 md:hidden ">
-                              <h2 className="text-base font-medium text-gray-100 dark:text-gray-400">Jun 2023 - Sep 2023</h2>
+                              <h2 className="text-base font-medium text-gray-700 dark:text-gray-400">Aug 2023 - Sep 2023</h2>
                            </div>
                            <div className="flex flex-col items-center w-10 mr-4 md:w-24">
                               <div>
@@ -128,7 +128,7 @@ const Experience = () => {
                            </div>
                         </div>
                         {/* 3rd */}
-                        {/* <div data-aos="fade-up" className="relative flex justify-between">
+                        <div data-aos="fade-up" className="relative flex justify-between">
                            <div className="hidden w-24 py-3 md:block ">
                               <h2 className="text-base  font-medium text-gray-700 dark:text-gray-400">Jun 2023 - Jul 2023</h2>
                            </div>
@@ -169,7 +169,7 @@ const Experience = () => {
                                  </div>
                               </div>
                            </div>
-                        </div> */}
+                        </div>
                      </div>
                   </div>
                </div>

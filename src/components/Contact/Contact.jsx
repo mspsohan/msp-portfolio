@@ -39,19 +39,17 @@ const Contact = () => {
    return (
       <>
          <div id="contact">
-            <div className="flex pt-10 min-h-[100vh] items-center  font-poppins ">
+            <section className="flex pt-20 items-center bg-gradient-to-t from-slate-800 to-blue-800 font-poppins ">
                <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-6 ">
-                  <div className="mx-auto">
+                  <div className="max-w-xl mx-auto">
                      <div className="text-center ">
                         <div className="relative flex flex-col items-center">
-                           <div className="absolute hidden md:block -top-10 left-68 text-[90px] text-gray-400 font-bold opacity-10">
+                           <div className="absolute hidden md:block -top-10 left-0 text-[90px] text-gray-400 font-bold opacity-10">
                               CONTACT ME
                            </div>
-                           <h1 className="text-5xl font-bold leading-tight dark:text-white">
-                              <span
-                                 className="text-white"> Contact Me
-                              </span>
-                           </h1>
+                           <h1 className="text-5xl font-bold leading-tight dark:text-white"><span
+                              className="text-white"> Contact Me
+                           </span> </h1>
                            <div className="flex w-24 mt-1 mb-10 overflow-hidden rounded">
                               <div className="flex-1 h-2 bg-blue-200">
                               </div>
@@ -132,7 +130,7 @@ const Contact = () => {
                               </svg>
                               <div
                                  className="max-w-xl ml-2 text-lg font-semibold tracking-wide text-gray-200 dark:text-gray-400">
-                                 Jhenaidah, Bangladesh
+                                 Jhenaidah, Dhaka, Bangladesh
                               </div>
                            </div>
                            <div className="flex mb-8 text-gray-100 md:items-center dark:text-gray-400">
@@ -164,7 +162,7 @@ const Contact = () => {
                         <form ref={form} onSubmit={sendEmail}>
                            <div className="flex flex-wrap mb-6 -mx-3">
                               <div className="w-full px-3">
-                                 <label className="block mb-2 font-bold tracking-wide text-gray-100 uppercase dark:text-white">
+                                 <label className="block mb-2 font-bold tracking-wide text-gray-700 uppercase dark:text-gray-400">
                                     Name
                                  </label>
                                  <input name="name"
@@ -175,7 +173,7 @@ const Contact = () => {
                            <div className="flex flex-wrap mb-6 -mx-3">
                               <div className="w-full px-3">
                                  <label
-                                    className="block mb-2 font-bold tracking-wide text-gray-100 uppercase dark:text-gray-400">
+                                    className="block mb-2 font-bold tracking-wide text-gray-700 uppercase dark:text-gray-400">
                                     Subject
                                  </label>
                                  <input name="subject"
@@ -186,7 +184,7 @@ const Contact = () => {
                            <div className="flex flex-wrap mb-6 -mx-3">
                               <div className="w-full px-3">
                                  <label
-                                    className="block mb-2 font-bold tracking-wide text-gray-100 uppercase dark:text-gray-400">
+                                    className="block mb-2 font-bold tracking-wide text-gray-700 uppercase dark:text-gray-400">
                                     Email Address
                                  </label>
                                  <input name="email"
@@ -196,7 +194,7 @@ const Contact = () => {
                            </div>
                            <div className="w-full px-3 mb-6 -mx-3">
                               <label
-                                 className="block mb-2 font-bold tracking-wide text-gray-100 uppercase dark:text-gray-400">
+                                 className="block mb-2 font-bold tracking-wide text-gray-700 uppercase dark:text-gray-400">
                                  Your Message
                               </label>
                               <textarea rows="2" type="message" name="message" placeholder="Write a message..." required=""
@@ -212,7 +210,7 @@ const Contact = () => {
                      </div>
                   </div>
                </div>
-            </div>
+            </section>
 
          </div>
       </>

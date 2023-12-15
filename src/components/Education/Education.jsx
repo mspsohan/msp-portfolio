@@ -4,9 +4,9 @@ import 'aos/dist/aos.css';
 const Education = () => {
    AOS.init();
    return (
-      <div id="education" className="min-h-[100vh] pt-16 content-center px-3">
+      <div id="education" className="bg-gradient-to-t from-blue-800  to-slate-800 h-screen content-center px-3">
          <div className="flex flex-col h-full justify-center items-center content-center">
-            <div className="mx-auto">
+            <div className="max-w-xl mx-auto">
                <div className="text-center ">
                   <div className="relative flex flex-col items-center">
                      <div className="absolute hidden md:block -top-10 -left-[160px] text-[100px] text-gray-400 font-bold opacity-10">
@@ -60,7 +60,7 @@ const Education = () => {
                         <div className="flex flex-col items-center w-10 mr-4 md:w-24">
                            <div>
                               <div
-                                 className="flex items-center justify-center w-8 h-8  rounded-full bg-gray-600">
+                                 className="flex items-center justify-center w-8 h-8 bg-blue-200 rounded-full dark:bg-gray-600">
                                  <div className="w-4 h-4  rounded-full "><FaUserGraduate className="text-white" /></div>
                               </div>
                            </div>
@@ -71,10 +71,10 @@ const Education = () => {
                               className="inline-block px-4 py-2 mb-4 text-xs font-medium text-gray-100 bg-gradient-to-r from-blue-500 to-blue-900 dark:from-blue-400 dark:to-blue-500 rounded-3xl dark:text-gray-100">
                               Jan 2018 - Present</h2>
                            <div
-                              className="relative flex-1 mb-10 bg-slate-500 border-b-4 border-blue-200 shadow dark:border-gray-700 rounded-3xl dark:bg-gray-900">
+                              className="relative flex-1 mb-10 bg-white border-b-4 border-blue-200 shadow dark:border-gray-700 rounded-3xl dark:bg-gray-900">
                               <div className="relative z-1 p-6 w-full md:w-[580px] xl:w-[780px]">
-                                 <p className="mb-2 text-xl font-bold text-gray-100">Bachelor of Social Science (BSS)</p>
-                                 <p className="text-gray-200">
+                                 <p className="mb-2 text-xl font-bold text-gray-600 dark:text-gray-100">Bachelor of Social Science (BSS)</p>
+                                 <p className="text-gray-700 dark:text-gray-200">
                                     Govt. K.C. College, Jhenaidah
                                  </p>
                               </div>
@@ -86,7 +86,7 @@ const Education = () => {
                         <div className="flex flex-col items-center w-10 mr-4 md:w-24">
                            <div>
                               <div
-                                 className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-600">
+                                 className="flex items-center justify-center w-8 h-8 bg-blue-200 rounded-full dark:bg-gray-600">
                                  <div className="w-4 h-4  rounded-full "><FaUserGraduate className="text-white" /></div>
                               </div>
                            </div>
@@ -97,10 +97,10 @@ const Education = () => {
                               className="inline-block px-4 py-2 mb-4 text-xs font-medium text-gray-100 bg-gradient-to-r from-blue-500 to-blue-900 dark:from-blue-400 dark:to-blue-500 rounded-3xl dark:text-gray-100">
                               Jun 2012 - Jul 2014</h2>
                            <div
-                              className="relative flex-1 mb-10 bg-slate-500 border-b-4 border-blue-200 shadow dark:border-gray-700 rounded-3xl dark:bg-gray-900">
+                              className="relative flex-1 mb-10 bg-white border-b-4 border-blue-200 shadow dark:border-gray-700 rounded-3xl dark:bg-gray-900">
                               <div className="relative z-2 p-6 w-full md:w-[580px] xl:w-[780px]">
-                                 <p className="mb-2 text-xl font-bold text-gray-100">Higher School Certificate</p>
-                                 <p className="text-gray-200">
+                                 <p className="mb-2 text-xl font-bold text-gray-600 dark:text-gray-100">Higher School Certificate</p>
+                                 <p className="text-gray-700 dark:text-gray-200">
                                     Shishukunja School & College, Jhenaidah
                                  </p>
                               </div>

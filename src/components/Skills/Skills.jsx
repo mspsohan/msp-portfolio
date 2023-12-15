@@ -18,8 +18,8 @@ const Skills = () => {
    AOS.init({ duration: 2000 });
    return (
       <>
-         <div id="skill" className="min-h-[100vh] pt-20  content-center">
-            <div className="mx-auto h-full flex items-center flex-col justify-center">
+         <div id="skill" className="min-h-screen lg:h-screen pt-20 bg-gradient-to-t from-slate-800 to-blue-800 content-center">
+            <div className="max-w-6xl mx-auto h-full flex items-center flex-col justify-center">
                <div className="max-w-xl mx-auto">
                   <div className="text-center ">
                      <div className="relative flex flex-col items-center">
@@ -42,7 +42,7 @@ const Skills = () => {
                      </div>
                   </div>
                </div>
-               <div data-aos="fade-up" className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-10  mt-12 p-5 ">
+               <div data-aos="fade-up" className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-12 p-5 ">
                   {
                      skills.map(skill => <SkillCard key={skill.id} skill={skill} />)
                   }
